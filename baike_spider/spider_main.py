@@ -32,6 +32,6 @@ class SpiderMain(object):
 
 
 if __name__ == '__main__':
-    root_url = "http://baike.baidu.com/view/21087.htm"
+    root_url = "https://baike.baidu.com/item/Python/407313"
     obj_spider = SpiderMain()
     obj_spider.craw(root_url)
